@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>지수수신 프로그램</string>
+  </property>
+  <widget class="QPushButton" name="btnRcvIdx">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>지수수신시작</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnStopRcvIdx">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>지수수신종료</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtStat">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>104</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>상태:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnInitQttn">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>130</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>지수시세초기화</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edtLastDtMn">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>124</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>최종:</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="grdQttn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>104</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>시세처리 </string>
+   </property>
+  </widget>
+  <zorder>grdQttn</zorder>
+  <zorder>btnRcvIdx</zorder>
+  <zorder>btnStopRcvIdx</zorder>
+  <zorder>edtStat</zorder>
+  <zorder>label</zorder>
+  <zorder>btnInitQttn</zorder>
+  <zorder>edtLastDtMn</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
